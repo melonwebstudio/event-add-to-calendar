@@ -1,3 +1,18 @@
+=== Event - Add to Calendar ===
+Contributors: melonwebstudio
+Donate link: https://www.paypal.me/MelonWebStudio
+Tags: calendar, events, add to calendar, google calendar, ics
+Requires at least: 5.0
+Tested up to: 6.9
+Requires PHP: 7.4
+Stable tag: 1.0.0
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+Add customizable "Add to Calendar" buttons to your WordPress site with support for Google Calendar, Outlook, Apple Calendar, and more.
+
+== Description ==
+
 Event - Add to Calendar is a powerful and user-friendly WordPress plugin that allows your website visitors to add events to their preferred calendar service with a single click. Perfect for event websites, business sites, webinars, workshops, and any site that promotes events. Everything you need to share your events, schedules, calendars, and appointments—so your audience can easily add them to their calendar and never miss an important moment.
 
 = Features =

@@ -1,0 +1,428 @@
+/**
+ * Event Add to Calendar - Admin Styles
+ * @package EvtCal_Add_To_Calendar
+ */
+
+/* Admin Page Wrapper */
+.evtcal-admin-wrap {
+    max-width: 1200px;
+    margin: 20px 0;
+}
+
+.evtcal-admin-wrap h1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.evtcal-admin-header {
+    margin-bottom: 30px;
+}
+
+.evtcal-version {
+    color: #666;
+    font-size: 14px;
+    margin: 5px 0 0 0;
+}
+
+/* Tabs Navigation */
+.evtcal-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ddd;
+}
+
+.evtcal-tab-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    background: none;
+    border: none;
+    border-bottom: 3px solid transparent;
+    color: #555;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.evtcal-tab-btn:hover {
+    color: #2271b1;
+    background-color: #f6f7f7;
+}
+
+.evtcal-tab-btn.active {
+    color: #2271b1;
+    border-bottom-color: #2271b1;
+    background-color: #f6f7f7;
+}
+
+/* Tab Content */
+.evtcal-tab-content {
+    display: none;
+    animation: evtcalFadeIn 0.4s ease;
+}
+
+.evtcal-tab-content.active {
+    display: block;
+}
+
+@keyframes evtcalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Card Styles */
+.evtcal-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.evtcal-card h2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #1d2327;
+}
+
+.evtcal-card h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #2c3338;
+}
+
+/* Welcome Section */
+.evtcal-welcome {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #fff;
+    border: none;
+}
+
+.evtcal-welcome h2 {
+    color: #fff;
+}
+
+.evtcal-welcome p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.evtcal-features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.feature-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 6px;
+}
+
+.feature-item .dashicons {
+    color: #4ade80;
+    font-size: 20px;
+}
+
+/* Steps */
+.evtcal-steps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.step {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    background: #f9fafb;
+    border-left: 4px solid #2271b1;
+    border-radius: 6px;
+}
+
+.step-number {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2271b1;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+}
+
+.step-content h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #1d2327;
+}
+
+.step-content p {
+    margin: 0;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Code Block */
+.evtcal-code-block {
+    position: relative;
+    background: #2d2d2d;
+    border-radius: 6px;
+    padding: 20px;
+    margin-top: 15px;
+}
+
+.evtcal-code-block code {
+    display: block;
+    color: #f8f8f2;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.evtcal-copy-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 8px 12px;
+    background: #4ade80;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.evtcal-copy-btn:hover {
+    background: #22c55e;
+    transform: translateY(-1px);
+}
+
+.evtcal-copy-btn:active {
+    transform: translateY(0);
+}
+
+.evtcal-copy-btn .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+/* Attributes Table */
+.evtcal-attributes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.evtcal-attributes-table thead {
+    background: #f9fafb;
+}
+
+.evtcal-attributes-table th,
+.evtcal-attributes-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #e5e7eb;
+}
+
+.evtcal-attributes-table th {
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.evtcal-attributes-table code {
+    background: #f1f5f9;
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #dc2626;
+}
+
+.evtcal-attributes-table tbody tr:hover {
+    background: #f9fafb;
+}
+
+/* Toggle Switch */
+.evtcal-toggle-switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 24px;
+}
+
+.evtcal-toggle-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.evtcal-toggle-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.3s;
+    border-radius: 24px;
+}
+
+.evtcal-toggle-slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+.evtcal-toggle-switch input:checked + .evtcal-toggle-slider {
+    background-color: #2271b1;
+}
+
+.evtcal-toggle-switch input:checked + .evtcal-toggle-slider:before {
+    transform: translateX(26px);
+}
+
+.evtcal-toggle-switch input:focus + .evtcal-toggle-slider {
+    box-shadow: 0 0 0 2px rgba(34, 113, 177, 0.3);
+}
+
+/* Button Preview */
+.evtcal-preview-section {
+    margin-top: 25px;
+    padding: 25px;
+    background: #f9fafb;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.evtcal-preview-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.evtcal-preview-btn:hover {
+    background-color: #333;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.evtcal-arrow {
+    font-size: 14px;
+}
+
+/* Save Section */
+.evtcal-save-section {
+    background: #f0f6fc;
+    border-left: 4px solid #2271b1;
+}
+
+.evtcal-save-section .submit {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+}
+
+.evtcal-reset-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+/* Color Picker */
+.evtcal-color-picker {
+    max-width: 100px;
+}
+
+/* Responsive */
+@media (max-width: 782px) {
+    .evtcal-tabs {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .evtcal-tab-btn {
+        width: 100%;
+        justify-content: flex-start;
+        border-bottom: none;
+        border-left: 3px solid transparent;
+    }
+
+    .evtcal-tab-btn.active {
+        border-bottom: none;
+        border-left-color: #2271b1;
+    }
+
+    .evtcal-features {
+        grid-template-columns: 1fr;
+    }
+
+    .step {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .evtcal-save-section .submit {
+        flex-direction: column;
+    }
+
+    .evtcal-save-section .button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .evtcal-copy-btn {
+        position: static;
+        margin-top: 10px;
+        width: 100%;
+        justify-content: center;
+    }
+}
