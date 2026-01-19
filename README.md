@@ -1,4 +1,4 @@
-Event - Add to Calendar is a powerful and user-friendly WordPress plugin that allows your website visitors to add events to their preferred calendar service with a single click. Perfect for event websites, business sites, webinars, workshops, and any site that promotes events. Everything you need to share your events, schedules, calendars, and appointments—so your audience can easily add them to their calendar and never miss an important moment.
+WordPress Plugin: Event - Add to Calendar is a powerful and user-friendly WordPress plugin that allows your website visitors to add events to their preferred calendar service with a single click. Perfect for event websites, business sites, webinars, workshops, and any site that promotes events. Everything you need to share your events, schedules, calendars, and appointments—so your audience can easily add them to their calendar and never miss an important moment.
 
 = Features =
 
@@ -305,7 +305,7 @@ We welcome contributions! Please contact us at support@melonwebstudio.com if you
 
 * Documentation: https://www.melonwebstudio.com/docs
 * Email: support@melonwebstudio.com
-* WordPress Forum: https://wordpress.org/support/plugin/event-add-to-calendar/
+* WordPress Forum: https://wordpress.org/support/plugin/evtcal-add-to-calendar/
 
 == Third Party Services ==
 
